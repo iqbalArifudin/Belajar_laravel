@@ -7,7 +7,8 @@
     <div class="row">
         <div class="col-8">
             <h1 class="mt-3">Form Tambah Data Mahasiswa</h1>
-            <form method="post" action="/students">
+            <!-- <form method="post" action="/students"> -->
+            <form method="post" action="{{ url('students/') }}">
                 @csrf
                 <div class="mb-3">
                     <label for="nama" class="form-label">Nama</label>
